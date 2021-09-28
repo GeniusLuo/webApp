@@ -1,0 +1,39 @@
+.search-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px;
+  background-color: #fff;
+}
+.search-block {
+  height: 64px;
+  background-color: #f3f3f3;
+  border-radius: 32px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  .in {
+    height: 100%;
+    font-size: 26px;
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    &::placeholder {
+      color: #999;
+    }
+  }
+  .mintui {
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 35px;
+    color: #ccc;
+  }
+  .clearText {
+    font-size: 22px;
+    white-space: nowrap;
+    color: #666;
+  }
+}
